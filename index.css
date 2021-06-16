@@ -1,0 +1,87 @@
+body {
+  background-image: url(https://marketplace.canva.com/EAEM7QTdl6w/1/0/800w/canva-arc-en-ciel-d%C3%A9grad%C3%A9-rose-et-violet-zoom-virtuel-arri%C3%A8re-plan-35MajLKYaMM.jpg);
+  background-repeat: no-repeat;
+  background-size: 2500px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    padding-left: 120px;
+    box-shadow: 0 0 30px;
+    margin: 110px;
+    padding-bottom: 10px;
+}
+.container img {
+    width: 200px;
+    height: 200px;
+}
+th  {
+    padding:50px;
+    color: rgba(150, 50, 100, 0.5)
+}
+.btn-cont {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    flex-direction: row;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.plus {
+    background-color: rgba(155, 155, 155, 0);
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.minus {
+    background-color: rgba(155, 155, 155, 0);
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.unitPrice{
+    padding-left: 70px;
+}
+.price{
+    padding-left: 70px;
+}
+.check{
+    margin: 50px;
+    cursor: pointer;
+}
+.del{
+    display: flex;
+}
+.delete{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+.like{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+.delete:hover{
+    color: red;
+    cursor: pointer;
+}
+#total{
+    box-shadow: 0px 0px 10px;
+    border-radius: 50px;
+    text-align: center;
+    background-color:rgba(20, 200, 150, 0.2);
+
+}
+.tot{
+    font-family: cursive;
+    font-size: 30px;
+}
